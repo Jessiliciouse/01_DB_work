@@ -17,7 +17,7 @@ DESCRIBE boo.users;
 
 
 /* Daten */
-
+INSERT INTO boo.users (userName,familyName;firstName) VALUES ("Eren Yeager",);
 
 
 /* Inhalte : Ergebnistabelle */
