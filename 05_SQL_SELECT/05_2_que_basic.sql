@@ -18,9 +18,9 @@ SELECT
    price AS "Kurs in $",
    -- c_name AS Unternehmen
    -- industry Branche
-   -- concat( sector, " | ", industry) AS "Operations"
+   concat( sector, " | ", industry) AS "Operations"
 FROM stocks.ccc
--- LIMIT 200,10
+ LIMIT 200,10
 -- LIMIT 1
-LIMIT 10 -- X Zeilen ab 0
+-- LIMIT 10 -- X Zeilen ab 0
 ;

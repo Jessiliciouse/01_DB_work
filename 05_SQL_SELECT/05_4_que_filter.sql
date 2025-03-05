@@ -10,7 +10,7 @@
 
 -- Eingrenzen/Filtern WHERE & AND/OR etc.
 -- Scharfe Suche
-/*
+/**/
 SELECT
 	ticker AS "SYM",
     c_name AS "Unternehmen",
@@ -25,13 +25,13 @@ FROM stocks.ccc
 -- WHERE industry = "Media" -- spez. Branche
 -- WHERE payouts = 12 -- Wer zahlt monatlich?
 
--- Kombination durch AND
-#WHERE sector = "Communication Services" AND industry = "Entertainment"
+-- Kombination durch AND 
+ WHERE sector = "Communication Services" AND industry = "Entertainment"
 -- WHERE sector = "Communication Services" AND payouts = 12
 -- Kombination durch AND / OR
 -- WHERE sector = "Communication Services" AND (industry = "Entertainment" OR industry = "Media")
 -- Kombination durch AND / NOT
-WHERE sector = "Communication Services" AND NOT industry = "Media"
+-- WHERE sector = "Communication Services" AND NOT industry = "Media"
 
 -- Sortierung
 ORDER BY industry DESC 
